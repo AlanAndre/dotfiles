@@ -77,7 +77,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
-
+    Plug 'morhetz/gruvbox'
     Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
     Plug 'pearofducks/ansible-vim'
     Plug 'flazz/vim-colorschemes'
